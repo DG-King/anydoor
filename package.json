@@ -1,0 +1,32 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "一个小型的NodeJS静态服务器",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "chalk": "^2.4.1",
+    "chmod": "^0.2.1",
+    "curl": "^0.1.4",
+    "handlebars": "^4.0.11",
+    "npm": "^6.2.0",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DG-King/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DG-King/anydoor/issues"
+  },
+  "homepage": "https://github.com/DG-King/anydoor#readme"
+}
